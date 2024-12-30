@@ -1,76 +1,67 @@
 
-#  CS Project
+# 📘 CS 프로젝트
 
-This repository contains educational materials and code examples for understanding computer science concepts, 
-including operating systems, networks, architecture, and system programming. It is organized into different 
-directories based on topics.
+이 저장소는 컴퓨터 과학 개념(운영체제, 네트워크, 아키텍처, 시스템 프로그래밍 등)을 이해하기 위한 교육 자료와 코드 예제를 포함하고 있습니다. 주제별로 정리된 디렉터리 구조를 가지고 있습니다.
 
-## Table of Contents
-1. [Directory Structure](#directory-structure)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
-
-## Directory Structure
+## 📂 디렉터리 구조
 
 ```
 fastcampus-cs-main/
-├── arch/        # Architecture-related files (e.g., encoding examples, documentation)
-├── net/         # Network analysis files in PCAP format
-├── os/          # Operating System code examples in C, Java, and Python
-├── sql/         # SQL scripts for database operations
-├── sys/         # System programming examples (e.g., multithreading, file handling)
+├── arch/        # 아키텍처 관련 파일 (예: 인코딩 예제, 문서)
+├── net/         # 네트워크 분석 파일 (PCAP 형식)
+├── os/          # 운영체제 코드 예제 (C, Java, Python)
+├── sql/         # 데이터베이스 조작을 위한 SQL 스크립트
+├── sys/         # 시스템 프로그래밍 예제 (멀티스레딩, 파일 처리 등)
 ```
 
-### Key Directories and Files
+### 주요 디렉터리 및 파일
 - **arch**:
-  - `README.md`: Documentation for architecture-related topics.
-  - `encoding.py`: Python script for encoding demonstration.
-  - `x86-64-reference.pdf`: Reference documentation for x86-64 architecture.
+  - `README.md`: 아키텍처 관련 주제 문서.
+  - `encoding.py`: 인코딩 데모 Python 스크립트.
+  - `x86-64-reference.pdf`: x86-64 아키텍처 참조 문서.
 
-- **net**: Contains network packet capture files in `.pcap` and `.pcapng` formats, such as:
-  - `3-way-handshake.pcap`: Demonstrates TCP 3-way handshake.
-  - `fragmentation.pcapng`: Example of IP fragmentation.
+- **net**: 네트워크 패킷 캡처 파일(Pcap) 포함:
+  - `3-way-handshake.pcap`: TCP 3-way 핸드셰이크 시연.
+  - `fragmentation.pcapng`: IP 패킷 분할 예제.
 
-- **os**: Examples and exercises for operating systems concepts, including:
-  - `MultiThreadExample.java`: Multithreading example in Java.
-  - `mulp*.c`: Various C programs related to OS-level operations.
+- **os**: 운영체제 개념의 예제와 연습 문제:
+  - `MultiThreadExample.java`: Java 멀티스레딩 예제.
+  - `mulp*.c`: 운영체제 관련 다양한 C 프로그램.
 
-- **sql**: SQL scripts for various operations:
-  - `create_db_and_table.sql`: Script for database and table creation.
-  - `select.sql`: Examples of SELECT queries.
+- **sql**: SQL 스크립트:
+  - `create_db_and_table.sql`: 데이터베이스 및 테이블 생성 스크립트.
+  - `select.sql`: SELECT 쿼리 예제.
 
-- **sys**: System programming examples and utilities:
-  - `file_*.c`: Examples of file handling in C.
-  - `pipe_*.c`: Examples of inter-process communication using pipes.
-  - `mmap_*.c`: Examples of memory mapping in C.
+- **sys**: 시스템 프로그래밍 예제:
+  - `file_*.c`: C 언어 파일 처리 예제.
+  - `pipe_*.c`: 파이프를 사용한 프로세스 간 통신 예제.
+  - `mmap_*.c`: C 언어 메모리 매핑 예제.
 
-## Installation
-1. Clone the repository:
+## 🚀 설치 방법
+1. 저장소를 클론합니다:
    ```bash
    git clone https://github.com/yourusername/fastcampus-cs-main.git
    ```
-2. Navigate to the desired directory to explore examples and exercises.
+2. 원하는 디렉터리로 이동하여 예제와 연습을 탐색하세요.
 
-## Usage
-- For Python scripts, use:
+## 🛠️ 사용 방법
+- Python 스크립트 실행:
   ```bash
   python3 script_name.py
   ```
-- For C programs, compile with `gcc`:
+- C 프로그램 컴파일 및 실행:
   ```bash
   gcc program.c -o program
   ./program
   ```
-- For Java programs, compile with `javac`:
+- Java 프로그램 컴파일 및 실행:
   ```bash
   javac Program.java
   java Program
   ```
 
-## Contributing
-Contributions are welcome! Please follow the standard [GitHub workflow](https://guides.github.com/introduction/flow/) to submit changes.
+## 🤝 기여하기
+기여는 언제나 환영입니다! [GitHub 워크플로우](https://guides.github.com/introduction/flow/)를 따라 변경 사항을 제출해주세요.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📜 라이선스
+이 프로젝트는 MIT 라이선스에 따라 라이선스가 부여됩니다. 자세한 내용은 LICENSE 파일을 참조하세요.
