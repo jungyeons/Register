@@ -6,7 +6,7 @@
 ## 📂 디렉터리 구조
 
 ```
-fastcampus-cs-main/
+cs-main/
 ├── arch/        # 아키텍처 관련 파일 (예: 인코딩 예제, 문서)
 ├── net/         # 네트워크 분석 파일 (PCAP 형식)
 ├── os/          # 운영체제 코드 예제 (C, Java, Python)
